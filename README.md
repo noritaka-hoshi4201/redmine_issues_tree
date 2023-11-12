@@ -9,6 +9,10 @@ This is a plugin for [Redmine](http://www.redmine.org/). It's provides a tree vi
 Please, use a branch with name corresponding to your
 Redmine version i.e. `4.1.x`, `3.2.x` and so on.
 
+Git clone example:
+sudo git clone --branch 5.0.x https://github.com/nicolasmetters/redmine_issues_tree.git
+
+
 Plugin tested with `5.0.x`, `4.2.x`, `4.1.x`, `4.0.x`, `3.4.x`, `3.3.x`, `3.2.x`, `3.1.x`, `3.0.x`, `2.6.x` and `2.5.x` versions of Redmine.
 
 ## Features
@@ -37,6 +41,7 @@ You can find them on the [official plugin page](https://www.redmine.org/plugins/
 Use a common Redmine [installation guide](http://www.redmine.org/projects/redmine/wiki/Plugins).
 This plugin hasn't any migration. So, you just need to copy source code into a proper folder and
 run `bundle` for install required gems.
+
 
 ## Information for developers and contributors
 
